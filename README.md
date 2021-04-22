@@ -66,12 +66,12 @@ This is the slowest method, if possible consider using USB method
 
 1. Set J1 jumpers to as shown below:
 
-<img src="Images/cpu_flash_uart.png" width="400">
+<img src="Images/jumper_cpu_flash_uart.png" width="400">
 
 2. Connect USB A-B cable to maximite and PC
 3. Open STM32CubeProgrammer program
 
-<img src="Images/jumper_cpu_flash_uart.png" width="400">
+<img src="Images/setting_cpu_flash_uart.png" width="400">
 
 4. Select UART
 5. Select COM port
