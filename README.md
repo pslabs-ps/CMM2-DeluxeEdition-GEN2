@@ -82,7 +82,7 @@ This is the slowest method, if possible consider using USB method
 
 8. Go to Erasing & Programming tab
 
-<img src="Images/uart_start_flash.png.png" width="800">
+<img src="Images/uart_start_flash.png" width="800">
 
 9. Browse and select firmware
 
