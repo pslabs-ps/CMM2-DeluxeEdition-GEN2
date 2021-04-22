@@ -71,28 +71,28 @@ This is the slowest method, if possible consider using USB method
 2. Connect USB A-B cable to maximite and PC
 3. Open STM32CubeProgrammer program
 
-<img src="Images/setting_cpu_flash_uart.png" width="400">
+<img src="Images/setting_cpu_flash_uart.png" width="800">
 
 4. Select UART
 5. Select COM port
 6. Press and hold FLASH button and press RESET button while still holding FLASH
 7. Press connect, successfull connection will be reported in Log
 
-<img src="Images/uart_connected.png" width="400">
+<img src="Images/uart_connected.png" width="800">
 
 8. Go to Erasing & Programming tab
 
-<img src="Images/uart_start_flash.png.png" width="400">
+<img src="Images/uart_start_flash.png.png" width="800">
 
 9. Browse and select firmware
 
 10. Press Start Programming button, flashing will start:
 
-<img src="Images/uart_flash_progress.png" width="400">
+<img src="Images/uart_flash_progress.png" width="800">
 
 11. Sucesfull flashing will be reported by po-up window and Log:
 
-<img src="Images/uart_flash_comp.png" width="400">
+<img src="Images/uart_flash_comp.png" width="800">
 
 12. Press disconnect button
 
@@ -106,7 +106,7 @@ This method is much faster than UART method, requires USB A-A cable
 2. Open STM32CubeProgrammer program
 3. Press and hold FLASH button and press RESET button while still holding FLASH, You should hear Windows found device sound
 
-<img src="Images/setting_cpu_flash_usb.png" width="400">
+<img src="Images/setting_cpu_flash_usb.png" width="800">
 
 4. Press refresh icon and select USB1 (or other) from drop down menu
 5. Remaining steps are identical as those described in **UART flashing method** starting from step 7
