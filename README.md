@@ -53,7 +53,59 @@ Table below shows main differences in Maximite 2 family
 <img src="Images/champf.jpg" width="200">
 Expansion card have to have edges chamfered, using unchamfered card will result in slot damage.
 
-# Powering Maximite from expansion Power card
+# Powering Maximite from expansion Power Card
 If You need to power Maximite system from Power card please remove solder jumpers JP1 and JP6 marked below to disconnect internal power sources
 
 <img src="Images/power.png" width="400">
+
+# Flashing CPU
+CPU can be flashed using one of following methods:
+
+## UART flashing method
+This is the slowest method, if possible consider using USB method
+
+1. Set J1 jumpers to as shown below:
+
+<img src="Images/cpu_flash_uart.png" width="400">
+
+2. Connect USB A-B cable to maximite and PC
+3. Open STM32CubeProgrammer program
+
+<img src="Images/setting_cpu_flash_uart.png" width="400">
+
+4. Select UART
+5. Select COM port
+6. Press and hold FLASH button and press RESET button while still holding FLASH
+7. Press connect, successfull connection will be reported in Log
+
+<img src="Images/uart_connected.png" width="400">
+
+8. Go to Erasing & Programming tab
+
+<img src="Images/uart_start_flash.png.png" width="400">
+
+9. Browse and select firmware
+
+10. Press Start Programming button, flashing will start:
+
+<img src="Images/uart_flash_progress.png" width="400">
+
+11. Sucesfull flashing will be reported by po-up window and Log:
+
+<img src="Images/uart_flash_comp.png" width="400">
+
+12. Press disconnect button
+
+13. Reboot the unit by using power switch or RESET switch
+
+
+## USB flashing method
+
+1. Connect USB A-A cable to maximite keyboard port and PC
+2. Open STM32CubeProgrammer program
+3. Press and hold FLASH button and press RESET button while still holding FLASH, You should hear Windows found device sound
+
+<img src="Images/setting_cpu_flash_usb.png" width="400">
+
+4. Press refresh icon and select USB1 (or other) from drop down menu
+5. Remaining steps are identical as those described in **UART flashing method** starting from step 7
