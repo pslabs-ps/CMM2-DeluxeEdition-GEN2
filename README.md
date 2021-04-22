@@ -64,7 +64,7 @@ CPU can be flashed using one of following methods:
 ## UART flashing method
 This is the slowest method, if possible consider using USB method
 
-Needed tools:
+Needed tools and software:
 - USB A-B cable
 - PC with Windows
 - STM32CubeProgrammer software installed can be downloaded here: [STM32CubeProgrammer software for all STM32](https://www.st.com/en/development-tools/stm32cubeprog.html)
@@ -90,7 +90,6 @@ Needed tools:
 <img src="Images/uart_start_flash.png" width="800">
 
 9. Browse and select firmware
-
 10. Press Start Programming button, flashing will start:
 
 <img src="Images/uart_flash_progress.png" width="800">
@@ -105,6 +104,12 @@ Needed tools:
 
 ## USB flashing method
 This method is much faster than UART method, requires USB A-A cable
+
+Needed tools and software
+- USB A-A cable
+- PC with Windows
+- STM32CubeProgrammer software installed can be downloaded here: [STM32CubeProgrammer software for all STM32](https://www.st.com/en/development-tools/stm32cubeprog.html)
+
 
 1. Connect USB A-A cable to maximite keyboard port and PC
 2. Open STM32CubeProgrammer program
