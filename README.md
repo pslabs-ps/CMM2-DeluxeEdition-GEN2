@@ -64,6 +64,11 @@ CPU can be flashed using one of following methods:
 ## UART flashing method
 This is the slowest method, if possible consider using USB method
 
+Needed tools:
+- USB A-B cable
+- PC with Windows
+- STM32CubeProgrammer software installed can be downloaded here: [STM32CubeProgrammer software for all STM32](https://www.st.com/en/development-tools/stm32cubeprog.html)
+
 1. Set J1 jumpers to as shown below:
 
 <img src="Images/jumper_cpu_flash_uart.png" width="400">
@@ -95,7 +100,6 @@ This is the slowest method, if possible consider using USB method
 <img src="Images/uart_flash_comp.png" width="800">
 
 12. Press disconnect button
-
 13. Reboot the unit by using power switch or RESET switch
 
 
