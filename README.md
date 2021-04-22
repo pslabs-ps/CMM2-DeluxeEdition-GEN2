@@ -4,7 +4,7 @@ The product is based on the Color Maximite 2 GEN2 - Geoff's project. It is 100% 
 Color Maximite 2 Deluxe Edition GEN 2 is produced in Poland.
 The Color Maximite 2 Deluxe Edition GEN2 is an enhanced version of previous generation.
 
-Schematic can be found here: [schematic REV A v03](/Schematic/WiFi_REVA_v02.pdf)
+Schematic can be found here: [schematic REV E v02](/Schematic/CCM2_Deluxe_GEN2_REVE_ver02.pdf)
 
 Maximite,expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
 
@@ -47,4 +47,13 @@ Table below shows main differences in Maximite 2 family
 | Reset button | YES | YES | no | no |
 | Flash button | YES | YES | no | no |
 | Easy flashable ESP01 | YES | YES | no | no |
-| Easy flashable Mouse Chip | YES | no | no |
+| Easy flashable Mouse Chip | YES | no | no | no |
+
+# WARNING!
+<img src="Images/champf.jpg" width="200">
+Expansion card have to have edges chamfered, using unchamfered card will result in slot damage.
+
+# Powering Maximite from expansion Power card
+If You need to power Maximite system from Power card please remove solder jumpers JP1 and JP6 marked below to disconnect internal power sources
+
+<img src="Images/power.png" width="400">
