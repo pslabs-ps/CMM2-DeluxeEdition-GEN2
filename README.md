@@ -71,7 +71,7 @@ This is the slowest method, if possible consider using USB method
 2. Connect USB A-B cable to maximite and PC
 3. Open STM32CubeProgrammer program
 
-<img src="Images/setting_cpu_flash_uart.png" width="400">
+<img src="Images/jumper_cpu_flash_uart.png" width="400">
 
 4. Select UART
 5. Select COM port
@@ -100,6 +100,7 @@ This is the slowest method, if possible consider using USB method
 
 
 ## USB flashing method
+This method is much faster than UART method, requires USB A-A cable
 
 1. Connect USB A-A cable to maximite keyboard port and PC
 2. Open STM32CubeProgrammer program
