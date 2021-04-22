@@ -105,7 +105,7 @@ Needed tools and software:
 ## USB flashing method
 This method is much faster than UART method, requires USB A-A cable
 
-Needed tools and software
+Needed tools and software:
 - USB A-A cable
 - PC with Windows
 - STM32CubeProgrammer software installed can be downloaded here: [STM32CubeProgrammer software for all STM32](https://www.st.com/en/development-tools/stm32cubeprog.html)
