@@ -6,19 +6,19 @@ The Color Maximite 2 Deluxe Edition GEN2 is an enhanced version of previous gene
 
 Schematic can be found here: [schematic REV E v02](/Schematic/CCM2_Deluxe_GEN2_REVE_ver02.pdf)
 
-Maximite,expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
+Maximite, expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
 
 # Main features
 - built-in ARM Cortex-M7 32-bit RISC processor clocked at 480MHz
 - 32MB external RAM
-- 3 sockets to connect 3 Wii nunchuk controllers (as opposed to 1 socket in the original design)
+- 3 sockets to connect 3 Wii Nunchuk controllers (as opposed to 1 socket in the original design)
 - socket for connecting a standard joystick, e.g. Atari
 - reset button
 - flash button
 - 5 edge connectors for expansion cards 
 - 40 and 26 pin IDC for connecting expansion system
 - USB socket for keyboard connection
-- USB socket for maouse connection
+- USB socket for mouse connection
 - USB to UART for: communication, CPU flashing, mouse chip flashing and ESP01 flashing
 - IR sensor
 - RTC clock chip
@@ -36,12 +36,12 @@ Table below shows main differences in Maximite 2 family
 | --- | --- |  --- |  --- |  --- | 
 | Processor speed | 480MHz | 480MHz | 480 MHz | 400-480MHz |
 | Ram | 32MB | 16MB | 32MB | 16MB |
-| Colour depth | 24 bit | 16 bit | 24 bit | 16 bit |
+| Color depth | 24 bit | 16 bit | 24 bit | 16 bit |
 | Build in expansion system | YES | no | no | no |
 | Compatible with external expansion system | YES | no | no | no |
 | Build in USB mouse chip | YES | YES | no | no |
 | RTC chip | YES | no | no | YES |
-| Nummber of Nunchuk ports | 3 | 3 | 2 | 1 |
+| Number of Nunchuk ports | 3 | 3 | 2 | 1 |
 | Atari joystick port | YES | YES | no | no |
 | WiFi ESP01 support | YES | YES | YES | no |
 | Reset button | YES | YES | no | no |
@@ -76,7 +76,7 @@ This is the slowest method, if possible consider using USB method
 4. Select UART
 5. Select COM port
 6. Press and hold FLASH button and press RESET button while still holding FLASH
-7. Press connect, successfull connection will be reported in Log
+7. Press connect, successful connection will be reported in Log
 
 <img src="Images/uart_connected.png" width="800">
 
@@ -90,7 +90,7 @@ This is the slowest method, if possible consider using USB method
 
 <img src="Images/uart_flash_progress.png" width="800">
 
-11. Sucesfull flashing will be reported by po-up window and Log:
+11. Successful flashing will be reported by po-up window and Log:
 
 <img src="Images/uart_flash_comp.png" width="800">
 
