@@ -69,6 +69,7 @@ Needed tools and software:
 - PC with Windows
 - STM32CubeProgrammer software installed can be downloaded here: [STM32CubeProgrammer software for all STM32](https://www.st.com/en/development-tools/stm32cubeprog.html)
 
+Procedure:
 1. Set J1 jumpers to as shown below:
 
 <img src="Images/jumper_cpu_flash_uart.png" width="400">
@@ -110,7 +111,7 @@ Needed tools and software:
 - PC with Windows
 - STM32CubeProgrammer software installed can be downloaded here: [STM32CubeProgrammer software for all STM32](https://www.st.com/en/development-tools/stm32cubeprog.html)
 
-
+Procedure:
 1. Connect USB A-A cable to maximite keyboard port and PC
 2. Open STM32CubeProgrammer program
 3. Press and hold FLASH button and press RESET button while still holding FLASH, You should hear Windows found device sound
