@@ -9,9 +9,13 @@ Schematic can be found here: [schematic REV E v02](/Schematic/CCM2_Deluxe_GEN2_R
 Maximite, expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
 
 
-#Table of contents
+# Table of contents
 1. [ Main features ](#feat)
-2. [ Usage tips. ](#usage)
+2. [ What are the differences? ](#diff)
+3. [ Powering Maximite from expansion Power Card ](#powc)
+3. [ Flashing CPU ](#flashcpu)
+- [ UART flashing method ](#uartflash)
+- [ USB flashing method ](#usbflash)
 
 <a name="feat"></a>
 # Main features
@@ -35,7 +39,8 @@ Maximite, expansion system and cards can be purchased here: [PS Labs](https://sk
 - LEDs indicating power and activity
 - built-in battery for RTC
 
-# What are the differences
+<a name="diff"></a>
+# What are the differences?
 Table below shows main differences in Maximite 2 family
 
 | Parameter | Colour Maximite 2 Deluxe GEN2| Colour Maximite 2 Deluxe | Colour Maximite 2 GEN2 | Colour Maximite 2 |
@@ -67,15 +72,17 @@ Table below shows main differences in Maximite 2 family
 
 
 
-
+<a name="powc"></a>
 # Powering Maximite from expansion Power Card
 If You need to power Maximite system from Power card please remove solder jumpers JP1 and JP6 marked below to disconnect internal power sources
 
 <img src="Images/power.png" width="400">
 
+<a name="flashcpu"></a>
 # Flashing CPU
 CPU can be flashed using one of following methods:
 
+<a name="feat"></a>
 ## UART flashing method
 This is the slowest method, if possible consider using USB method
 
@@ -117,7 +124,7 @@ Procedure:
 12. Press disconnect button
 13. Reboot the unit by using power switch or RESET switch
 
-
+<a name="usbflash"></a>
 ## USB flashing method
 This method is much faster than UART method, requires USB A-A cable
 
