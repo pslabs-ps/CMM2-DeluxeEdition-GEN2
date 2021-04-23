@@ -49,7 +49,16 @@ Table below shows main differences in Maximite 2 family
 | Easy flashable ESP01 | YES | YES | no | no |
 | Easy flashable Mouse Chip | YES | no | no | no |
 
-<h3 style="color:#ff0000">Danger</h3>
+[cols="2"]
+|===
+|plain
+|plain
+|RED
+{set:cellbgcolor:red}
+|plain
+{set:cellbgcolor!}
+|===
+
 
 # WARNING!
 <img src="Images/champf.jpg" width="200">
