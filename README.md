@@ -51,6 +51,7 @@ Table below shows main differences in Maximite 2 family
 
 # WARNING!
 <img src="Images/champf.jpg" width="200">
+
 | :warning: ** Expansion card have to have edges chamfered ** using unchamfered card will result in slot damage. |
 | --- |
 
