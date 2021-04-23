@@ -3,7 +3,7 @@
 1. [ Main features ](#feat)
 2. [ What are the differences? ](#diff)
 3. [ Powering Maximite from expansion Power Card ](#powc)
-3. [ Flashing CPU ](#flashcpu)
+4. [ Flashing CPU ](#flashcpu)
 	- [ UART flashing method ](#uartflash)
 	- [ USB flashing method ](#usbflash)
 
@@ -83,7 +83,7 @@ If You need to power Maximite system from Power card please remove solder jumper
 # Flashing CPU
 CPU can be flashed using one of following methods:
 
-<a name="feat"></a>
+<a name="uartflash"></a>
 ## UART flashing method
 This is the slowest method, if possible consider using USB method
 
