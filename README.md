@@ -8,6 +8,15 @@ Schematic can be found here: [schematic REV E v02](/Schematic/CCM2_Deluxe_GEN2_R
 
 Maximite, expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
 
+
+1. [ Description. ](#desc)
+2. [ Usage tips. ](#usage)
+
+<a name="desc"></a>
+## 1. Description
+
+
+
 # Main features
 - built-in ARM Cortex-M7 32-bit RISC processor clocked at 480MHz
 - 32MB external RAM
