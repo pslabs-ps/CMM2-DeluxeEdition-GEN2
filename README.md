@@ -51,7 +51,7 @@ Table below shows main differences in Maximite 2 family
 
 # WARNING!
 <img src="Images/champf.jpg" width="200">
-Expansion card have to have edges chamfered, using unchamfered card will result in slot damage.
+:warning: **Expansion card have to have edges chamfered** using unchamfered card will result in slot damage.
 
 # Powering Maximite from expansion Power Card
 If You need to power Maximite system from Power card please remove solder jumpers JP1 and JP6 marked below to disconnect internal power sources
