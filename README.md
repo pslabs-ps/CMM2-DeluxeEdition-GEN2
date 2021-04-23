@@ -16,7 +16,8 @@
 8. Nunchuk
 9. Atari joystick
 10. IR sensor
-11. MM edit
+11. RTC
+12. MM edit
 
 
 	
