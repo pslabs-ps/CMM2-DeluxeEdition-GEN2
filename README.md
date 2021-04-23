@@ -50,6 +50,7 @@ Table below shows main differences in Maximite 2 family
 | Easy flashable Mouse Chip | YES | no | no | no |
 
 <h3 style="color:#ff0000">Danger</h3>
+
 # WARNING!
 <img src="Images/champf.jpg" width="200">
 
