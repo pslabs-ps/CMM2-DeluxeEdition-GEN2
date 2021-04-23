@@ -10,10 +10,10 @@ Maximite, expansion system and cards can be purchased here: [PS Labs](https://sk
 
 
 # Table of contents
-1. [ Main features ](#feat)
-2. [ What are the differences? ](#diff)
-3. [ Powering Maximite from expansion Power Card ](#powc)
-3. [ Flashing CPU ](#flashcpu)
+1.[ Main features ](#feat)
+2.[ What are the differences? ](#diff)
+3.[ Powering Maximite from expansion Power Card ](#powc)
+3.[ Flashing CPU ](#flashcpu)
 - [ UART flashing method ](#uartflash)
 - [ USB flashing method ](#usbflash)
 
