@@ -7,6 +7,13 @@
 	- [ UART flashing method ](#uartflash)
 	- [ USB flashing method ](#usbflash)
 
+	
+# WARNING!
+<img src="Images/champf.jpg" width="200">
+
+| :warning: Expansion card have to have edges chamfered using unchamfered card will result in slot damage. |
+| --- |
+
 <a name="desc"></a>
 # Colour Maximite 2 Deluxe Edition GEN2
 
@@ -61,14 +68,6 @@ Table below shows main differences in Maximite 2 family
 | Easy flashable ESP01 | YES | YES | no | no |
 | Easy flashable Mouse Chip | YES | no | no | no |
 
-
-
-
-# WARNING!
-<img src="Images/champf.jpg" width="200">
-
-| :warning: Expansion card have to have edges chamfered using unchamfered card will result in slot damage. |
-| --- |
 
 
 
