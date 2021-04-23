@@ -1,11 +1,23 @@
 # Table of contents
 1. [Colour Maximite 2 Deluxe Edition GEN2](#desc)
-1. [ Main features ](#feat)
-2. [ What are the differences? ](#diff)
-3. [ Powering Maximite from expansion Power Card ](#powc)
+2. [ Main features ](#feat)
+3. [ What are the differences? ](#diff)
 4. [ Flashing CPU ](#flashcpu)
 	- [ UART flashing method ](#uartflash)
 	- [ USB flashing method ](#usbflash)
+5. Expansion system
+	- [ Powering Maximite from expansion Power Card ](#powc)
+6. WiFi ESP01
+	- ESP01 setup
+	- ESP01 flashing
+7. UBS mouse host chip
+	- example code
+	- flashing
+8. Nunchuk
+9. Atari joystick
+10. IR sensor
+11. MM edit
+
 
 	
 # WARNING!
@@ -72,11 +84,7 @@ Table below shows main differences in Maximite 2 family
 
 
 
-<a name="powc"></a>
-# Powering Maximite from expansion Power Card
-If You need to power Maximite system from Power card please remove solder jumpers JP1 and JP6 marked below to disconnect internal power sources
 
-<img src="Images/power.png" width="400">
 
 <a name="flashcpu"></a>
 # Flashing CPU
@@ -142,3 +150,12 @@ Procedure:
 
 4. Press refresh icon and select USB1 (or other) from drop down menu
 5. Remaining steps are identical as those described in **UART flashing method** starting from step 7
+
+
+
+# Expansion system
+<a name="powc"></a>
+## Powering Maximite from expansion Power Card
+If You need to power Maximite system from Power card please remove solder jumpers JP1 and JP6 marked below to disconnect internal power sources
+
+<img src="Images/power.png" width="400">
