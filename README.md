@@ -49,10 +49,10 @@ Table below shows main differences in Maximite 2 family
 | Easy flashable ESP01 | YES | YES | no | no |
 | Easy flashable Mouse Chip | YES | no | no | no |
 
-# WARNING!
+| # WARNING!
 <img src="Images/champf.jpg" width="200">
 
-| :warning: **Expansion card have to have edges chamfered** using unchamfered card will result in slot damage. |
+:warning: Expansion card have to have edges chamfered using unchamfered card will result in slot damage. |
 | --- |
 
 # Powering Maximite from expansion Power Card
