@@ -49,15 +49,7 @@ Table below shows main differences in Maximite 2 family
 | Easy flashable ESP01 | YES | YES | no | no |
 | Easy flashable Mouse Chip | YES | no | no | no |
 
-[cols="2"]
-|===
-|plain
-|plain
-|RED
-{set:cellbgcolor:red}
-|plain
-{set:cellbgcolor!}
-|===
+
 
 
 # WARNING!
@@ -65,6 +57,10 @@ Table below shows main differences in Maximite 2 family
 
 | :warning: Expansion card have to have edges chamfered using unchamfered card will result in slot damage. |
 | --- |
+
+
+
+
 
 # Powering Maximite from expansion Power Card
 If You need to power Maximite system from Power card please remove solder jumpers JP1 and JP6 marked below to disconnect internal power sources
