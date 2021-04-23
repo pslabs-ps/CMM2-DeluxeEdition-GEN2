@@ -1,3 +1,13 @@
+# Table of contents
+1. [Colour Maximite 2 Deluxe Edition GEN2](#desc)
+1. [ Main features ](#feat)
+2. [ What are the differences? ](#diff)
+3. [ Powering Maximite from expansion Power Card ](#powc)
+3. [ Flashing CPU ](#flashcpu)
+	- [ UART flashing method ](#uartflash)
+	- [ USB flashing method ](#usbflash)
+
+<a name="desc"></a>
 # Colour Maximite 2 Deluxe Edition GEN2
 
 The product is based on the Color Maximite 2 GEN2 - Geoff's project. It is 100% compatible with it and has been extended with additional functions.
@@ -7,15 +17,6 @@ The Color Maximite 2 Deluxe Edition GEN2 is an enhanced version of previous gene
 Schematic can be found here: [schematic REV E v02](/Schematic/CCM2_Deluxe_GEN2_REVE_ver02.pdf)
 
 Maximite, expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
-
-
-# Table of contents
-1. [ Main features ](#feat)
-2. [ What are the differences? ](#diff)
-3. [ Powering Maximite from expansion Power Card ](#powc)
-3. [ Flashing CPU ](#flashcpu)
-	- [ UART flashing method ](#uartflash)
-	- [ USB flashing method ](#usbflash)
 
 <a name="feat"></a>
 # Main features
