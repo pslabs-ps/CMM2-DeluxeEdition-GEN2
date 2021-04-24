@@ -6,6 +6,7 @@
 	- [ UART flashing method ](#uartflash)
 	- [ USB flashing method ](#usbflash)
 5. Expansion system
+	- daisy chaining with other expansion systems
 	- [ Powering Maximite from expansion Power Card ](#powc)
 6. WiFi ESP01
 	- ESP01 setup
