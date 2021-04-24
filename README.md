@@ -337,3 +337,23 @@ OPTION DS3231 OFF
 
 
 # 12. MM edit
+Buid in code editor is not the only way code can be edited and tested. You can find MM edit more effective way to write and test programs on Maximite.
+
+You can download it here: [MM Edit2](https://www.c-com.com.au/MMedit2.htm)
+
+To use MM Edit with Maximite:
+
+<img src="Images/jumper_cpu_flash_uart.png" width="400">
+
+1. Set J1 jumpers as shown above
+2. Connect maximite to PC with USB A-B cable and power the device
+3. Find out COM port detected by PC
+<img src="Images/mmedit.png" width="800">
+4. Open MM Edit program
+5. From drop down menu select **Connect >> New...**
+6. Select serial port and speed (default: 115200)
+7. Press Save configure
+8. From drop down menu select **Connect** and select newly created configure
+9  From drop down menu select **Connect >> Connect to Maximite**
+
+After creating new code You can send it and automaticaly run in maximite by selecting from deop down menu **Connect >> Load and Run**
