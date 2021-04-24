@@ -307,7 +307,7 @@ Below You can find procedure for flashing mouse host chip:
 6. Select device, and baud rate as shown above
 7. Press write
 
-<img src="Images/mouseht.png" width="200">
+<img src="Images/mouseht.png" width="400">
 
 8. Press RESET (SW6) button near HT mouse chip
 
