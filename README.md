@@ -350,10 +350,13 @@ To use MM Edit with Maximite:
 3. Find out COM port detected by PC
 <img src="Images/mmedit.png" width="800">
 4. Open MM Edit program
-5. From drop down menu select **Connect >> New...**
+5. From drop down menu select:
+**Connect >> New...**
 6. Select serial port and speed (default: 115200)
 7. Press Save configure
-8. From drop down menu select **Connect** and select newly created configure
-9  From drop down menu select **Connect >> Connect to Maximite**
+8. From drop down menu select:
+**Connect** and select newly created configure
+9  From drop down menu select:
+**Connect >> Connect to Maximite**
 
 After creating new code You can send it and automaticaly run in maximite by selecting from deop down menu **Connect >> Load and Run**
