@@ -17,7 +17,7 @@
 	- flashing
 8. Nunchuk
 9. [ Atari joystick ](#joy)
-10. IR sensor
+10. [ IR sensor ](#ir)
 11. RTC
 12. MM edit
 
@@ -299,9 +299,21 @@ DO
 LOOP
 ```
 
-
+<a name="ir"></a>
 # 10. IR sensor
+Device is equiped with IR sensor, only standard RC remotes will work with libraries included in MMBasic
 
+Example code can be found below:
+```basic
+IR dev, KeyCode, IR_Int
+Do
+
+LOOP
+
+SUB IR_Int
+  PRINT "Received device = " DevCode "  key = " KeyCode
+END SUB
+```
 
 
 # 11. RTC
