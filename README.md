@@ -3,7 +3,7 @@
 2. [ Main features ](#feat)
 3. [ What are the differences? ](#diff)
 4. [ Flashing CPU ](#flashcpu)
-	- [ UART flashing method ](#uartflash)
+	1. [ UART flashing method ](#uartflash)
 	- [ USB flashing method ](#usbflash)
 5. [ Expansion system ](#exps)
 	- daisy chaining with other expansion systems
