@@ -83,7 +83,7 @@ Table below shows main differences in Maximite 2 family
 | Easy flashable ESP01 | YES | YES | no | no |
 | Easy flashable Mouse Chip | YES | no | no | no |
 
-\* Out of the box only mouse with PS2 mode is supported, there is place to install HT chip on PCB
+\* in Original GEN2 out of the box only mouse with PS2 mode is supported, there is place to install HT chip on PCB
 
 
 
@@ -160,7 +160,7 @@ Procedure:
 
 <img src="Images/max_exp.png" width="800">
 
-Maximite Deluxe 2 GEN2 is equiped with 5 edge connectors used with expansion cards.
+Maximite Deluxe 2 GEN2 is equipped with 5 edge connectors used with expansion cards.
 IDC40 (J9) and IDC26 (J13) are used to daisy chain expansion modules: [Expansion Module](https://github.com/pslabs-ps/CMM2-Expansion-System)
 
 <a name="powc"></a>
@@ -196,14 +196,14 @@ This card adds wifi functionality, includes USB to RS chip allowing easy flashin
 
 <img src="Images/esp_com.png" width="400">
 
-use jumper J1 to configure COM port that CPU is using to communicate with ESP module as shown abowe
+use jumper J1 to configure COM port that CPU is using to communicate with ESP module as shown above
 
 <a name="wififlash"></a>
 ## ESP01 flashing
 
 <img src="Images/esp_flash.png" width="400">
 
-1. Use jumper J1 to connect Maximiate USB to UART chip with ESP module ash shown abowe
+1. Use jumper J1 to connect Maximiate USB to UART chip with ESP module ash shown above
 
 <img src="Images/flash.png" width="400">
 
@@ -221,7 +221,7 @@ use jumper J1 to configure COM port that CPU is using to communicate with ESP mo
 
 <a name="mouse"></a>
 # 7. UBS mouse host chip
-Device is equiped with HT mouse host chip that allows to connect many devices available on the market. Mouse is connected to bottom USB port.
+Device is equipped with HT mouse host chip that allows to connect many devices available on the market. Mouse is connected to bottom USB port.
 
 <a name="mousecode"></a>
 ## example code
@@ -301,7 +301,7 @@ LOOP
 
 <a name="ir"></a>
 # 10. IR sensor
-Device is equiped with IR sensor, only standard RC remotes will work with libraries included in MMBasic
+Device is equipped with IR sensor, only standard RC remotes will work with libraries included in MMBasic
 
 Example code can be found below:
 ```basic
@@ -317,13 +317,13 @@ END SUB
 
 <a name="rtc"></a>
 # 11. RTC
-Device is equiped with with RTC chip. Out of the box Maximite is using CPU RTC, to change to external RTC use following code:
+Device is equipped with RTC chip. Out of the box Maximite is using CPU RTC, to change to external RTC use following code:
 
 ```
 OPTION DS3231 ON
 ```
 
-after enabling external RTC remeber to set the date:
+after enabling external RTC remember to set the date:
 
 ```
 DATE$ = "DD-MM-YY"
@@ -337,7 +337,7 @@ OPTION DS3231 OFF
 
 <a name="mmedit"></a>
 # 12. MM edit
-Buid in code editor is not the only way code can be edited and tested. You can find MM edit more effective way to write and test programs on Maximite.
+Build in code editor is not the only way code can be edited and tested. You can find MM edit more effective way to write and test programs on Maximite.
 
 You can download it here: [MM Edit2](https://www.c-com.com.au/MMedit2.htm)
 
@@ -359,4 +359,4 @@ To use MM Edit with Maximite:
 8. From drop down menu select: Connect and select newly created configure
 9  From drop down menu select: Connect >> Connect to Maximite
 
-After creating new code You can send it and automaticaly run in maximite by selecting from deop down menu: Connect >> Load and Run
+After creating new code You can send it and automatically run in maximite by selecting from drop down menu: Connect >> Load and Run
