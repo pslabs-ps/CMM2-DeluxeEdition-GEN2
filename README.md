@@ -83,7 +83,7 @@ Table below shows main differences in Maximite 2 family
 | Easy flashable ESP01 | YES | YES | no | no |
 | Easy flashable Mouse Chip | YES | no | no | no |
 
-* Out of the box only mouse with PS2 mode is supported, there is place to install HT chip on PCB
+/* Out of the box only mouse with PS2 mode is supported, there is place to install HT chip on PCB
 
 
 
