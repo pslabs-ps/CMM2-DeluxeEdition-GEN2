@@ -156,8 +156,14 @@ Procedure:
 
 
 # Expansion system
+
+<img src="Images/max_exp.png" width="800">
+
+Maximite Deluxe 2 GEN2 is equiped with 5 edge connectors used with expansion cards.
+IDC40 (J9) and IDC26 (J13) are used to daisy chain expansion modules: [Expansion Module](https://github.com/pslabs-ps/CMM2-Expansion-System)
+
 <a name="powc"></a>
 ## Powering Maximite from expansion Power Card
-If You need to power Maximite system from Power card please remove solder jumpers JP1 and JP6 marked below to disconnect internal power sources
+If You need to power Maximite system from Power card please remove solder jumpers JP1 and JP6 marked below to disconnect internal power sources. 12V DC 2,5/5,5mm connector is used to supply Power Cards.
 
 <img src="Images/power.png" width="400">
