@@ -97,8 +97,8 @@ Table below shows main differences in Maximite 2 family
 | WiFi ESP01 support | YES | YES | YES | no |
 | Reset button | YES | YES | no | no |
 | Flash button | YES | YES | no | no |
-| Easy flashable ESP01 | YES | YES | no | no |
-| Easy flashable Mouse Chip | YES | no | no | no |
+| Easy to flash ESP01 | YES | YES | no | no |
+| Easy to flash Mouse Chip | YES | no | no | no |
 
 \* in Original GEN2 out of the box only mouse with PS2 mode is supported, there is place to install HT chip on PCB but is not installed by producers (can be purchased IN HT or PS Labs and installed by user)
 
