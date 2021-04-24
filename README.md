@@ -1,17 +1,17 @@
 # Table of contents
-1. [Colour Maximite 2 Deluxe Edition GEN2](#desc)
+1. [ Colour Maximite 2 Deluxe Edition GEN2 ](#desc)
 2. [ Main features ](#feat)
 3. [ What are the differences? ](#diff)
 4. [ Flashing CPU ](#flashcpu)
 	- [ UART flashing method ](#uartflash)
 	- [ USB flashing method ](#usbflash)
-5. Expansion system
+5. [ Expansion system ](#exps)
 	- daisy chaining with other expansion systems
 	- [ Powering Maximite from expansion Power Card ](#powc)
-	- Expansion cards
-6. WiFi ESP01
-	- ESP01 setup
-	- ESP01 flashing
+	- [ Expansion cards ] (#expc)
+6. [ WiFi ESP01 ] (#wifi)
+	- [ ESP01 setup ] (#wifisetup)
+	- [ ESP01 flashing ] (#wififlassh)
 7. UBS mouse host chip
 	- example code
 	- flashing
@@ -155,7 +155,7 @@ Procedure:
 5. Remaining steps are identical as those described in **UART flashing method** starting from step 7
 
 
-
+<a name="exps"></a>
 # Expansion system
 
 <img src="Images/max_exp.png" width="800">
@@ -169,6 +169,7 @@ If You need to power Maximite system from Power card please remove solder jumper
 
 <img src="Images/power.png" width="400">
 
+<a name="expc"></a>
 ## Expansion cards
 Following expansion cards are available or are in development:
 
@@ -186,16 +187,18 @@ Following expansion cards are available or are in development:
 
 
 
-
+<a name="wifi"></a>
 # WiFi ESP01
 This card adds wifi functionality, includes USB to RS chip allowing easy flashing and communication with pc
 
+<a name="wifisetup"></a>
 ## ESP01 setup
 
 <img src="Images/esp_com.png" width="400">
 
 use jumper J1 to configure COM port that CPU is using to communicate with ESP module as shown abowe
 
+<a name="wififlash"></a>
 ## ESP01 flashing
 
 <img src="Images/esp_flash.png" width="400">
@@ -213,4 +216,4 @@ use jumper J1 to configure COM port that CPU is using to communicate with ESP mo
 <img src="Images/prog_reset.png" width="400">
 
 7. Hold PROG. button and press RESET button while still holding PROG. button
-8. Wait until flash completes and disconnect card from PC
+8. Wait until flash completes
