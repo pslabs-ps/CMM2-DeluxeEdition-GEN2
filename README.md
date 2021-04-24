@@ -8,6 +8,7 @@
 5. Expansion system
 	- daisy chaining with other expansion systems
 	- [ Powering Maximite from expansion Power Card ](#powc)
+	- Expansion cards
 6. WiFi ESP01
 	- ESP01 setup
 	- ESP01 flashing
@@ -167,3 +168,16 @@ IDC40 (J9) and IDC26 (J13) are used to daisy chain expansion modules: [Expansion
 If You need to power Maximite system from Power card please remove solder jumpers JP1 and JP6 marked below to disconnect internal power sources. 12V DC 2,5/5,5mm connector is used to supply Power Cards.
 
 <img src="Images/power.png" width="400">
+
+## Expansion cards
+Following expansion cards are available or are in development:
+
+| ID | Name | Desc. | Status |
+| --- | --- | --- | --- |
+| 01 | [Mouse/joystick card](https://github.com/pslabs-ps/CMM2-ExpansionCard-MouseJoy) | adds: USB mouse (HT chip) including wireless, Atari joystick, Nunchuk port | done |
+| 02 | Relay card | Relay card controlled by shift registers, can be daisy chained, only 3 pins needed to operate multiple cards | in progress |
+| 03 | Power card | delivers high amperage 5V and 3.3V to be used with power hungry cards | done |
+| 04 | [Prototyping card](https://github.com/pslabs-ps/CMM2-ExpansionCard-ProtoSimple)| simple prototyping card | done |
+| 05 | [WiFi card](https://github.com/pslabs-ps/CMM2-ExpansionCard-WiFi) | adds wifi functionality, includes USB to RS chip allowing easy flashing and communication with pc | done |
+| 06 | [Shift register card](https://github.com/pslabs-ps/CMM2-ExpansionCard-ShiftRegisterLed) | helps to learn how shift registers work, 16 led operated from 3 pins, can be daisy chained | done |
+| 07 | rs232 card | adds 2 standard RS232 ports | in progress |
