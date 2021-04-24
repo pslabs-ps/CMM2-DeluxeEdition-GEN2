@@ -163,7 +163,7 @@ Procedure:
 Maximite Deluxe 2 GEN2 is equipped with 5 edge connectors used with expansion cards.
 IDC40 (J9) and IDC26 (J13) are used to daisy chain expansion modules: [Expansion Module](https://github.com/pslabs-ps/CMM2-Expansion-System)
 
-*Expansion cards can be used only when top cover is removed or modified (slots are cut in enclosure)*
+**Expansion cards can be used only when top cover is removed or modified (slots are cut in enclosure)**
 
 <a name="powc"></a>
 ## Powering Maximite from expansion Power Card
