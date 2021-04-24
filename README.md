@@ -19,7 +19,7 @@
 9. [ Atari joystick ](#joy)
 10. [ IR sensor ](#ir)
 11. [ RTC ](#rtc)
-12. MM edit
+12. [ MM edit ](#mmedit)
 
 
 	
@@ -335,7 +335,7 @@ To turn off external RTC use code below
 OPTION DS3231 OFF
 ```
 
-
+<a name="mmedit"></a>
 # 12. MM edit
 Buid in code editor is not the only way code can be edited and tested. You can find MM edit more effective way to write and test programs on Maximite.
 
@@ -359,4 +359,4 @@ To use MM Edit with Maximite:
 8. From drop down menu select: Connect and select newly created configure
 9  From drop down menu select: Connect >> Connect to Maximite
 
-After creating new code You can send it and automaticaly run in maximite by selecting from deop down menu **Connect >> Load and Run**
+After creating new code You can send it and automaticaly run in maximite by selecting from deop down menu: Connect >> Load and Run
