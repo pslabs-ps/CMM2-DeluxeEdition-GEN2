@@ -293,7 +293,7 @@ Below You can find procedure for flashing mouse host chip:
 
 1. Download frirmware and ds30 Loader from this page: [HobbyTronics](https://www.hobbytronics.co.uk/usb-host-soic?search=usb%20host)
 
-<img src="Images/mouse_flash.png" width="100">
+<img src="Images/mouse_flash.png" width="200">
 
 2. Set J1 jumpers as shown above
 2. Make sure that no device is connected to MOUSE port of Maximite
