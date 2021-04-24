@@ -11,7 +11,7 @@
 	- [ Expansion cards ](#expc)
 6. [ WiFi ESP01 ](#wifi)
 	- [ ESP01 setup ](#wifisetup)
-	- [ ESP01 flashing ](#wififlassh)
+	- [ ESP01 flashing ](#wififlash)
 7. UBS mouse host chip
 	- example code
 	- flashing
