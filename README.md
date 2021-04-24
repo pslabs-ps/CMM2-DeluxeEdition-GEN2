@@ -8,10 +8,10 @@
 5. [ Expansion system ](#exps)
 	- daisy chaining with other expansion systems
 	- [ Powering Maximite from expansion Power Card ](#powc)
-	- [ Expansion cards ] (#expc)
-6. [ WiFi ESP01 ] (#wifi)
-	- [ ESP01 setup ] (#wifisetup)
-	- [ ESP01 flashing ] (#wififlassh)
+	- [ Expansion cards ](#expc)
+6. [ WiFi ESP01 ](#wifi)
+	- [ ESP01 setup ](#wifisetup)
+	- [ ESP01 flashing ](#wififlassh)
 7. UBS mouse host chip
 	- example code
 	- flashing
