@@ -181,3 +181,17 @@ Following expansion cards are available or are in development:
 | 05 | [WiFi card](https://github.com/pslabs-ps/CMM2-ExpansionCard-WiFi) | adds wifi functionality, includes USB to RS chip allowing easy flashing and communication with pc | done |
 | 06 | [Shift register card](https://github.com/pslabs-ps/CMM2-ExpansionCard-ShiftRegisterLed) | helps to learn how shift registers work, 16 led operated from 3 pins, can be daisy chained | done |
 | 07 | rs232 card | adds 2 standard RS232 ports | in progress |
+
+
+
+
+
+
+# WiFi ESP01
+This card adds wifi functionality, includes USB to RS chip allowing easy flashing and communication with pc
+
+## ESP01 setup
+
+<img src="Images/esp_com.png" width="400">
+
+use jumper J1 to configure COM port that CPU is using to communicate with ESP module.
