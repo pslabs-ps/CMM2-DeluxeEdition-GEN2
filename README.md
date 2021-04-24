@@ -22,12 +22,19 @@
 12. [ MM edit ](#mmedit)
 
 
+
+
 	
 # WARNING!
 <img src="Images/champf.jpg" width="200">
 
 | :warning: Expansion card have to have edges chamfered using unchamfered card will result in slot damage. |
 | --- |
+
+
+
+
+
 
 <a name="desc"></a>
 # 1. Colour Maximite 2 Deluxe Edition GEN2
@@ -39,6 +46,11 @@ The Color Maximite 2 Deluxe Edition GEN2 is an enhanced version of previous gene
 Schematic can be found here: [schematic REV E v02](/Schematic/CCM2_Deluxe_GEN2_REVE_ver02.pdf)
 
 Maximite, expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
+
+
+
+
+
 
 <a name="feat"></a>
 # 2. Main features
@@ -62,6 +74,11 @@ Maximite, expansion system and cards can be purchased here: [PS Labs](https://sk
 - LEDs indicating power and activity
 - built-in battery for RTC
 
+
+
+
+
+
 <a name="diff"></a>
 # 3. What are the differences?
 Table below shows main differences in Maximite 2 family
@@ -84,6 +101,7 @@ Table below shows main differences in Maximite 2 family
 | Easy flashable Mouse Chip | YES | no | no | no |
 
 \* in Original GEN2 out of the box only mouse with PS2 mode is supported, there is place to install HT chip on PCB
+
 
 
 
@@ -155,6 +173,11 @@ Procedure:
 5. Remaining steps are identical as those described in **UART flashing method** starting from step 7
 
 
+
+
+
+
+
 <a name="exps"></a>
 # 5. Expansion system
 
@@ -189,6 +212,7 @@ Following expansion cards are available or are in development:
 
 
 
+
 <a name="wifi"></a>
 # 6. WiFi ESP01
 This card adds wifi functionality, includes USB to RS chip allowing easy flashing and communication with pc
@@ -203,7 +227,7 @@ use jumper J1 to configure COM port that CPU is using to communicate with ESP mo
 <a name="wififlash"></a>
 ## ESP01 flashing
 
-<img src="Images/esp_flash.png" width="400">
+<img src="Images/esp_flash.png" width="200">
 
 1. Use jumper J1 to connect Maximiate USB to UART chip with ESP module ash shown above
 
@@ -219,6 +243,11 @@ use jumper J1 to configure COM port that CPU is using to communicate with ESP mo
 
 7. Hold PROG. button and press RESET button while still holding PROG. button
 8. Wait until flash completes
+
+
+
+
+
 
 
 <a name="mouse"></a>
@@ -260,11 +289,20 @@ end sub
 ```
 
 ## flashing
+Below You can find procedure for flashing mouse host chip:
 
-
+1. Download frirmware and ds30 Loader from this page: [HobbyTronics](https://www.hobbytronics.co.uk/usb-host-soic?search=usb%20host)
+<img src="Images/mouse_flash.png" width="200">
+2. Set J1 jumpers as shown above
+2. Make sure that no device is connected to MOUSE port of Maximite
+3. Connect maximite to PC with USB A-B cable and power the device
+4. Find out COM port detected by PC
+5. Select proper COM port
+5. Browse for hex file
+<img src="Images/d30.png" width="200">
+6. Select device, and baud rate as shown above
 
 # 8. Nunchuk
-
 
 <a name="joy"></a>
 # 9. Atari joystick
@@ -301,6 +339,11 @@ DO
 LOOP
 ```
 
+
+
+
+
+
 <a name="ir"></a>
 # 10. IR sensor
 Device is equipped with IR sensor, only standard RC remotes will work with libraries included in MMBasic
@@ -316,6 +359,11 @@ SUB IR_Int
   PRINT "Received device = " DevCode "  key = " KeyCode
 END SUB
 ```
+
+
+
+
+
 
 <a name="rtc"></a>
 # 11. RTC
@@ -336,6 +384,11 @@ To turn off external RTC use code below
 ```
 OPTION DS3231 OFF
 ```
+
+
+
+
+
 
 <a name="mmedit"></a>
 # 12. MM edit
