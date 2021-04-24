@@ -407,7 +407,7 @@ You can download it here: [MM Edit2](https://www.c-com.com.au/MMedit2.htm)
 
 To use MM Edit with Maximite:
 
-<img src="Images/jumper_cpu_flash_uart.png" width="400">
+<img src="Images/jumper_cpu_flash_uart.png" width="200">
 
 1. Set J1 jumpers as shown above
 2. Connect maximite to PC with USB A-B cable and power the device
