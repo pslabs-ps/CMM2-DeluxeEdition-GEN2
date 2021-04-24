@@ -200,4 +200,17 @@ use jumper J1 to configure COM port that CPU is using to communicate with ESP mo
 
 <img src="Images/esp_flash.png" width="400">
 
-Use jumper J1 to connect Maximiate USB to UART chip with ESP module ash shown abowe
+1. Use jumper J1 to connect Maximiate USB to UART chip with ESP module ash shown abowe
+
+<img src="Images/flash.png" width="400">
+
+2. Connect USB A-B cable to PC and Maximite
+3. Power on Maximite
+4. Find out which COM port is detected by PC
+5. Select COM port in Your flashing tool
+6. Start flash
+
+<img src="Images/prog_reset.png" width="400">
+
+7. Hold PROG. button and press RESET button while still holding PROG. button
+8. Wait until flash completes and disconnect card from PC
