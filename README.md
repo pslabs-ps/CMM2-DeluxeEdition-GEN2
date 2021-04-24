@@ -18,7 +18,7 @@
 8. Nunchuk
 9. [ Atari joystick ](#joy)
 10. [ IR sensor ](#ir)
-11. RTC
+11. [ RTC ](#rtc)
 12. MM edit
 
 
@@ -315,9 +315,25 @@ SUB IR_Int
 END SUB
 ```
 
-
+<a name="rtc"></a>
 # 11. RTC
+Device is equiped with with RTC chip. Out of the box Maximite is using CPU RTC, to change to external RTC use following code:
 
+'''
+OPTION DS3231 ON
+'''
+
+after enabling external RTC remeber to set the date:
+
+'''
+DATE$ = "DD-MM-YY"
+'''
+
+To turn off external RTC use code below
+
+'''
+OPTION DS3231 OFF
+'''
 
 
 # 12. MM edit
