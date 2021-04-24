@@ -305,6 +305,11 @@ Below You can find procedure for flashing mouse host chip:
 <img src="Images/d30.png" width="400">
 
 6. Select device, and baud rate as shown above
+7. Press write
+
+<img src="Images/mouseht.png" width="200">
+
+8. Press RESET (SW6) button near HT mouse chip
 
 # 8. Nunchuk
 
