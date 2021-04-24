@@ -3,7 +3,7 @@
 2. [ Main features ](#feat)
 3. [ What are the differences? ](#diff)
 4. [ Flashing CPU ](#flashcpu)
-	1. [ UART flashing method ](#uartflash)
+	- [ UART flashing method ](#uartflash)
 	- [ USB flashing method ](#usbflash)
 5. [ Expansion system ](#exps)
 	- daisy chaining with other expansion systems
@@ -30,7 +30,7 @@
 | --- |
 
 <a name="desc"></a>
-# Colour Maximite 2 Deluxe Edition GEN2
+# 1. Colour Maximite 2 Deluxe Edition GEN2
 
 The product is based on the Color Maximite 2 GEN2 - Geoff's project. It is 100% compatible with it and has been extended with additional functions.
 Color Maximite 2 Deluxe Edition GEN 2 is produced in Poland.
