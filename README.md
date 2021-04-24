@@ -73,7 +73,7 @@ Table below shows main differences in Maximite 2 family
 | Color depth | 24 bit | 16 bit | 24 bit | 16 bit |
 | Build in expansion system | YES | no | no | no |
 | Compatible with external expansion system | YES | no | no | no |
-| Build in USB mouse chip | YES | YES | no | no |
+| Build in USB mouse chip | YES | YES | no* | no |
 | RTC chip | YES | no | no | YES |
 | Number of Nunchuk ports | 3 | 3 | 2 | 1 |
 | Atari joystick port | YES | YES | no | no |
@@ -83,7 +83,7 @@ Table below shows main differences in Maximite 2 family
 | Easy flashable ESP01 | YES | YES | no | no |
 | Easy flashable Mouse Chip | YES | no | no | no |
 
-
+* Out of the box only mouse with PS2 mode is supported, there is place to install HT chip on PCB
 
 
 
