@@ -16,7 +16,7 @@
 	- [ example code ](#mousecode)
 	- flashing
 8. Nunchuk
-9. Atari joystick
+9. [ Atari joystick ](#joy)
 10. IR sensor
 11. RTC
 12. MM edit
@@ -258,4 +258,54 @@ end sub
 ```
 
 ## flashing
-	
+
+
+
+# 8. Nunchuk
+
+
+<a name="joy"></a>
+# 9. Atari joystick
+In table below You can find pinout for Atari Joystick DB9 socket:
+
+| DB9 pin | Function | Maximite IDC40 pin |
+| --- | --- | --- |
+| 1 | UP | 35 |
+| 2 | DOWN | 36 |
+| 3 | LEFT | 38 |
+| 4 | RIGHT | 40 |
+| 5 | nc | nc |
+| 6 | BUTTON A | 32 |
+| 7 | +5V | +5V |
+| 8 | GND | GND |
+| 9 | BUTTON B | 33 |
+
+Code example can be found below:
+
+```basic
+SETPIN 35, DIN, PULLUP
+SETPIN 36, DIN, PULLUP
+SETPIN 38, DIN, PULLUP
+SETPIN 40, DIN, PULLUP
+SETPIN 32, DIN, PULLUP
+
+DO
+  IF PIN(35) = 0 THEN PRINT"UP"
+  IF PIN(36) = 0 THEN PRINT"DOWN"
+  IF PIN(38) = 0 THEN PRINT"LEFT"
+  IF PIN(40) = 0 THEN PRINT"RIGT"
+  IF PIN(32) = 0 THEN PRINT"FIRE"
+  PAUSE 100
+LOOP
+```
+
+
+# 10. IR sensor
+
+
+
+# 11. RTC
+
+
+
+# 12. MM edit
