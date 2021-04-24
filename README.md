@@ -302,7 +302,7 @@ Below You can find procedure for flashing mouse host chip:
 5. Select proper COM port
 5. Browse for hex file
 
-<img src="Images/d30.png" width="200">
+<img src="Images/d30.png" width="400">
 
 6. Select device, and baud rate as shown above
 
