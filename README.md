@@ -14,7 +14,7 @@
 	- [ ESP01 flashing ](#wififlash)
 7. [ UBS mouse host chip ](#mouse)
 	- [ example code ](#mousecode)
-	- flashing
+	- [ flashing ](#mouseflash)
 8. Nunchuk
 9. [ Atari joystick ](#joy)
 10. [ IR sensor ](#ir)
@@ -287,19 +287,23 @@ sub rightclick
   print @(200,100)"Right",n
 end sub
 ```
-
+<a name="mouseflash"></a>
 ## flashing
 Below You can find procedure for flashing mouse host chip:
 
 1. Download frirmware and ds30 Loader from this page: [HobbyTronics](https://www.hobbytronics.co.uk/usb-host-soic?search=usb%20host)
+
 <img src="Images/mouse_flash.png" width="200">
+
 2. Set J1 jumpers as shown above
 2. Make sure that no device is connected to MOUSE port of Maximite
 3. Connect maximite to PC with USB A-B cable and power the device
 4. Find out COM port detected by PC
 5. Select proper COM port
 5. Browse for hex file
+
 <img src="Images/d30.png" width="200">
+
 6. Select device, and baud rate as shown above
 
 # 8. Nunchuk
