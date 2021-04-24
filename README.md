@@ -194,4 +194,10 @@ This card adds wifi functionality, includes USB to RS chip allowing easy flashin
 
 <img src="Images/esp_com.png" width="400">
 
-use jumper J1 to configure COM port that CPU is using to communicate with ESP module.
+use jumper J1 to configure COM port that CPU is using to communicate with ESP module as shown abowe
+
+## ESP01 flashing
+
+<img src="Images/esp_flash.png" width="400">
+
+Use jumper J1 to connect Maximiate USB to UART chip with ESP module ash shown abowe
