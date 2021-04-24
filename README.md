@@ -12,8 +12,8 @@
 6. [ WiFi ESP01 ](#wifi)
 	- [ ESP01 setup ](#wifisetup)
 	- [ ESP01 flashing ](#wififlash)
-7. UBS mouse host chip
-	- example code
+7. [ UBS mouse host chip ](#mouse)
+	- [ example code ](#mousecode)
 	- flashing
 8. Nunchuk
 9. Atari joystick
@@ -41,7 +41,7 @@ Schematic can be found here: [schematic REV E v02](/Schematic/CCM2_Deluxe_GEN2_R
 Maximite, expansion system and cards can be purchased here: [PS Labs](https://sklep.pslabs.pl/Maximite-c91)
 
 <a name="feat"></a>
-# Main features
+# 2. Main features
 - built-in ARM Cortex-M7 32-bit RISC processor clocked at 480MHz
 - 32MB external RAM
 - 3 sockets to connect 3 Wii Nunchuk controllers (as opposed to 1 socket in the original design)
@@ -63,7 +63,7 @@ Maximite, expansion system and cards can be purchased here: [PS Labs](https://sk
 - built-in battery for RTC
 
 <a name="diff"></a>
-# What are the differences?
+# 3. What are the differences?
 Table below shows main differences in Maximite 2 family
 
 | Parameter | Colour Maximite 2 Deluxe GEN2| Colour Maximite 2 Deluxe | Colour Maximite 2 GEN2 | Colour Maximite 2 |
@@ -90,7 +90,7 @@ Table below shows main differences in Maximite 2 family
 
 
 <a name="flashcpu"></a>
-# Flashing CPU
+# 4. Flashing CPU
 CPU can be flashed using one of following methods:
 
 <a name="uartflash"></a>
@@ -156,7 +156,7 @@ Procedure:
 
 
 <a name="exps"></a>
-# Expansion system
+# 5. Expansion system
 
 <img src="Images/max_exp.png" width="800">
 
@@ -188,7 +188,7 @@ Following expansion cards are available or are in development:
 
 
 <a name="wifi"></a>
-# WiFi ESP01
+# 6. WiFi ESP01
 This card adds wifi functionality, includes USB to RS chip allowing easy flashing and communication with pc
 
 <a name="wifisetup"></a>
@@ -217,3 +217,45 @@ use jumper J1 to configure COM port that CPU is using to communicate with ESP mo
 
 7. Hold PROG. button and press RESET button while still holding PROG. button
 8. Wait until flash completes
+
+
+<a name="mouse"></a>
+# 7. UBS mouse host chip
+Device is equiped with HT mouse host chip that allows to connect many devices available on the market. Mouse is connected to bottom USB port.
+
+<a name="mousecode"></a>
+## example code
+Below You can find sample code for mouse test using HT chip
+
+```basic
+mode 3
+gui cursor on
+controller mouse open 2,leftclick,rightclick
+settick 20, myint
+do:loop
+'
+sub myint
+  gui cursor mouse(x,2),mouse(y,2)
+end sub
+'
+sub leftclick
+  static integer n
+  local integer x=mouse(x,2),y=mouse(y,2)
+  gui cursor off
+  gui cursor on 1,x,y,rgb(red)
+  n=n+1
+  print @(100,100)"left",n
+  end sub
+'
+sub rightclick
+  static integer n=0
+  local integer x=mouse(x,2),y=mouse(y,2)
+  gui cursor off
+  gui cursor on 0,x,y
+  n=n+1
+  print @(200,100)"Right",n
+end sub
+```
+
+## flashing
+	
