@@ -94,7 +94,8 @@ Table below shows main differences in Maximite 2 family
 | RTC chip | YES | no | no | YES |
 | Number of Nunchuk ports | 3 | 3 | 2 | 1 |
 | Atari joystick port | YES | YES | no | no |
-| WiFi ESP01 support | YES | YES | YES** | no |
+| WiFi ESP01 support | YES | YES | YES | no |
+| WiFi COM port selector | YES | YES | no | no |
 | Reset button | YES | YES | no | no |
 | Flash button | YES | YES | no | no |
 | Easy to flash ESP01 | YES | YES | no | no |
@@ -102,7 +103,6 @@ Table below shows main differences in Maximite 2 family
 
 \* in Original GEN2 out of the box only mouse with PS2 mode is supported, there is place to install HT chip on PCB but is not installed by producers (can be purchased IN HT or PS Labs and installed by user)
 
-\** COM port is fixed (not possible to change)
 
 
 
