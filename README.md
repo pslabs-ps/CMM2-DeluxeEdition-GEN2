@@ -89,7 +89,7 @@ Table below shows main differences in Maximite 2 family
 | Ram | 32MB | 16MB | 32MB | 16MB |
 | Color depth | 24 bit | 16 bit | 24 bit | 16 bit |
 | Build in expansion system | YES | no | no | no |
-| Compatible with external expansion system | YES | no | no | no |
+| Compatible with external expansion system | YES | YES | YES | YES |
 | Build in USB mouse host chip | YES | YES | no* | no |
 | RTC chip | YES | no | no | YES |
 | Number of Nunchuk ports | 3 | 3 | 2 | 1 |
