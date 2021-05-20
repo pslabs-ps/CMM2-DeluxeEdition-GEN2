@@ -28,7 +28,7 @@
 # WARNING!
 <img src="Images/champf.jpg" width="200">
 
-| :warning: Expansion card have to have edges chamfered using unchamfered card will result in slot damage. |
+| :warning: Maximum thickness of expansion card is 1,6mm. 1,6mm Expansion card have to have edges chamfered using unchamfered card will result in slot damage. Expansion cards with thickness 1,2mm or lower can be used without chamfer|
 | --- |
 
 
