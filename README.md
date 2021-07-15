@@ -39,6 +39,8 @@
 <a name="desc"></a>
 # 1. Colour Maximite 2 Deluxe Edition GEN2
 
+<img src="Images/panel.png" width="1000">
+
 The product is based on the Color Maximite 2 GEN2 - Geoff's project. It is 100% compatible with it and has been extended with additional functions.
 Color Maximite 2 Deluxe Edition GEN 2 is produced in Poland.
 The Color Maximite 2 Deluxe Edition GEN2 is an enhanced version of previous generation.
