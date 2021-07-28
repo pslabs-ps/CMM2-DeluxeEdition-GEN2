@@ -68,7 +68,6 @@ Maximite, expansion system and cards can be purchased here: [PS Labs](https://sk
 - USB socket for mouse connection
 - USB to UART for: communication, CPU flashing, mouse chip flashing and ESP01 flashing
 - IR sensor
-- RTC clock chip
 - audio jack
 - VGA socket
 - power switch
@@ -93,7 +92,7 @@ Table below shows main differences in Maximite 2 family
 | Build in expansion system | YES | no | no | no |
 | Compatible with external expansion system | YES | YES | YES | YES |
 | Build in USB mouse host chip | YES | YES | no* | no |
-| RTC chip | YES | no | no | YES |
+| RTC chip | no | no | no | no |
 | Number of Nunchuk ports | 3 | 3 | 2 | 1 |
 | Atari joystick port | YES | YES | no | no |
 | WiFi ESP01 support | YES | YES | YES | no |
@@ -379,7 +378,7 @@ END SUB
 
 <a name="rtc"></a>
 # 11. RTC
-Device is equipped with RTC chip. Out of the box Maximite is using CPU RTC, to change to external RTC use following code:
+Device can be equipped with RTC chip (this chip has to be soldered by user on U23 pad). Out of the box Maximite is using CPU RTC, to change to external RTC use following code:
 
 ```
 OPTION DS3231 ON
